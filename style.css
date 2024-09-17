@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+main{
+    display:flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    font-family: poppins;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(1, 153, 255);
+    width: 400px;
+    height: 600px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px black;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    font: bold 2.5rem poppins;
+    border-bottom: solid 5px black;
+    margin-bottom: 20px;
+}
+
+.input{
+    display:flex;
+    width: 300px;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.input input{
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    outline: 0;
+    font: bold 1.5rem poppins;
+    text-align: center;
+}
+
+.input label{
+    font: bold 1.5rem poppins;
+}
+
+button{
+    display:flex;
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    font: bold 1.2rem poppins;
+    outline: none;
+    background: #198f28;
+    color:white;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+}
+
+.result{
+    display:flex;
+    margin-top: 20px;
+    align-items: center;
+    width: 300px;
+    height: 150px;
+    border-radius: 5px;
+    font: italic 1.5rem poppins;
+    box-shadow: 0px 0px 10px black;
+    background: black;
+    color:white;
+    padding: 20px;
+    box-sizing: border-box;
+    user-select: none;
+}
